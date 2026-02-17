@@ -9,7 +9,7 @@ void WebhookTools::run() {
     std::string BLANC = "\033[97m";
 
     std::cout << "\n" << ROSE << "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓" << std::endl;
-    std::cout << "┃             WIPE WEBHOOK TOOLS                 ┃" << std::endl;
+    std::cout << "┃             MEOW WEBHOOK TOOLS                 ┃" << std::endl;
     std::cout << "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛" << std::endl;
     std::cout << BLANC << " [1] Webhook Spammer\n [2] Webhook Deleter (Permanent)\n\n Selection > ";
     std::cin >> choice;

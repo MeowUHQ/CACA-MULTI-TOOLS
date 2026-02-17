@@ -35,5 +35,4 @@ void PacketSniffer::run() {
     }
 
     system("pktmon stop >NUL 2>&1");
-
 }

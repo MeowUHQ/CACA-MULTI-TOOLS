@@ -11,7 +11,7 @@ void IpLookup::run() {
     std::string RESET = "\033[0m";
 
     std::cout << "\n" << ROSE << "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓" << std::endl;
-    std::cout << "┃            MEOW IP LOOKUP                                      ┃" << std::endl;
+    std::cout << "┃            MEOW ADVANCED IP LOOKUP             ┃" << std::endl;
     std::cout << "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛" << RESET << std::endl;
     
     std::cout << BLANC << " Entrez l'adresse IP cible : " << ROSE;
@@ -34,5 +34,4 @@ void IpLookup::run() {
 
     std::cout << GRIS << "\n[i] Ordre des donnees : Statut, Pays, Region, Ville, CP, Lat, Lon, TZ, ISP, Org, AS, VPN?, IP" << RESET << std::endl;
     std::cout << ROSE << "\n[V] Recherche terminee." << RESET << std::endl;
-
 }
