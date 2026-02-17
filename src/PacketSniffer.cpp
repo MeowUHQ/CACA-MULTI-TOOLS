@@ -12,7 +12,7 @@ void PacketSniffer::run() {
     std::cout << GRIS << "Packet Sniffer n'est pas encore au point, Veuillez attendre la prochaine version." << RESET << std::endl;
 
     std::cout << "\n" << ROSE << "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓" << std::endl;
-    std::cout << "┃            WIPE REAL-TIME SNIFFER              ┃" << std::endl;
+    std::cout << "┃            MEOW REAL-TIME SNIFFER              ┃" << std::endl;
     std::cout << "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛" << RESET << std::endl;
 
     std::cout << GRIS << "[*] Reset des ressources systeme..." << RESET << std::endl;
@@ -35,4 +35,5 @@ void PacketSniffer::run() {
     }
 
     system("pktmon stop >NUL 2>&1");
+
 }
